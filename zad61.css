@@ -1,0 +1,44 @@
+/* Określenie oddzielnego formatowania dla każdego stanu odnośnika. */
+/*Normalne odnosniki*/
+a {
+  font-size: 24pt;
+  text-decoration: none;
+}
+
+a:link {
+  color: navy;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+/* Małe odnosniki */
+a.maly {
+  font-size: 12pt;
+}
+
+a.maly:link {
+  color: silver;
+}
+
+a.maly:visited {
+  color: yellow;
+}
+
+a.maly:hover {
+  color: black;
+  text-decoration: none;
+}
+
+a:active {
+  color: silver;
+}
+
+
+   /* Mateusz Sławski */

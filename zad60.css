@@ -1,0 +1,24 @@
+#blok1_Slawski, #blok2_Slawski, #blok3_Slawski {
+  background-color: green;
+  width: 625px;
+  font-size: 10mm;
+}
+
+#blok1_Slawski:hover {
+  background-color: lightgreen;
+  font-size: 21mm;
+}
+
+#blok2_Slawski:hover {
+  background-color: red;
+  font-size: 21mm;
+}
+
+#blok3_Slawski:hover {
+  background-color: orange;
+  font-size: 21mm;
+}
+/*
+"hover" to pseudoklasa używana w CSS, która pozwala na zdefiniowanie stylów dla elementu po najechaniu na niego kursorem myszy.
+Mateusz Sławski
+*/

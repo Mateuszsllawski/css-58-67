@@ -1,0 +1,23 @@
+
+
+A {
+font-size: 18pt;
+text-decoration: none; /* właściwość usuwająca podkreślenie z linków */
+}
+
+A:link {
+color: blue;
+}
+
+A:visited {
+color: green;
+}
+
+A:hover {
+color: red;
+text-decoration: underline; /* właściwość dodająca podkreślenie do linków */
+}
+
+/* Właściwość text-decoration z wartością "none" 
+usuwa podkreślenie z linków, natomiast wartość "underline" dodaje podkreślenie do linków.
+Mateusz Sławski */

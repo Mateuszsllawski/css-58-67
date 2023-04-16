@@ -1,0 +1,41 @@
+p:first-of-type:first-letter {
+  font-size: 116pt;
+  color: #8BC34A; /* jasno zielony */
+}
+p:not(:first-of-type) {
+  font-size: 22pt;
+  color: orange;
+}
+p:not(:first-of-type):first-letter {
+  font-size: 116pt;
+  color: #8BC34A; /* jasno zielony */
+}
+
+/* drugi akapit */
+p:nth-of-type(2):first-letter {
+  font-size: 116pt;
+  color: #8BC34A; /* jasno zielony */
+}
+p:nth-of-type(2):not(:first-of-type) {
+  font-size: 20pt;
+  color: orange;
+}
+h1:first-letter {
+  font-size: 200pt;
+  color: silver;
+  text-transform: uppercase;
+}
+
+h1:not(:first-of-type) {
+  font-size: 48pt;
+  color: purple;
+}
+
+p:first-of-type:first-line {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+
+
+

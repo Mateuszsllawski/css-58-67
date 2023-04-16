@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>zad 62</title>
+	<style>
+		body {
+			background-color: silver;
+		}
+		p:lang(a) {
+			font-size: 21mm;
+			color: #008000; /* light green */
+		}
+		p:lang(pl) {
+			font-size: 28mm;
+			color: #FF0000; /* red */
+		}
+		p:lang(en) {
+			font-size: 35mm;
+			color: #FFA500; /* orange */
+		}
+	</style>
+</head>
+<body>
+	<p lang="a">Uwaga:
+W ciągłym opracowaniu są style poziomu trzeciego (CSS 3), które oferują jeszcze więcej
+rozwiązań. Aby dowiedzieć się więcej, sprawdzaj stronę organizacji W3C oraz najnowsze
+specyfikacje.
+Wady CSS
+1. złożona specyfikacja (składnia) nietolerująca, rzadnych błędów składniowych,
+2. brak sygnalizacji błędów podczas wykonywania styli CSS oraz podczas ich realizacji,
+3. błędne obsługiwanie CSS przez różne przeglądarki,
+Jednostki miar.
+Jednostki miar bezwzględnych w CSS
+pt - punkty (1 pkt 1/72 cala)
+pc - pica ( 1 pica=12 punktów)
+mm - milimetry
+cm -centrymetry
+in - cale
+Jednostki miar względnych w CSS
+em -jednostka odpowiadająca aktualnej czcionce
+ex - wielkość zbliżona do wysokości litery "x"
+px - piksel, jednostki względna, gdyż zależna od rozdzielczości monitora
+% - wartości procentowe
+Sposoby określania kolorów
+a)określanie z użyciem definicji heksadecymalnych
+DIV {color:#FFFFFF;}
+b)określanie z użyciem definicji RGB
+DIV {color: rgb(255,100,13);}
+liczby od 0 do 255 dla kolorów czerwony, zielony, niebieski,
+c)określanie z użyciem nazwy kolorów
+DIV {color:red;}
+d)określanie z użyciem definicji RGB oraz nasycenia kolorów
+DIV {color: rgb(10%,40%,78%);} procentowe nasycenie obrazu od 0% do 100%
+Uwagi na temat pisania KODU w CSS
+Uwaga1:
+Język CSS dopuszcza stosowanie zarówno dużych, jak i małych liter.
+Poprawnymi nazwami atrybutu są background, backGROUND oraz BACKground.
+Uwaga2:
+Wstawienie białych znaków (spacje, tabulacje, znaki nowej linii) w arkuszu CSS nie ma
+wpływu na jego działanie.
+Uwaga3:
+Dlatego możesz ułożyć wpisywane reguły CSS w taki sposób, aby były bardziej czytelne np.
+h1 {
+font-weight : bold;
+}
+możemy zapisać
+h1{font-weight:bold;}
+Uwaga4:
+Komentarze w arkuszu stylów
+pisze się używając znaków: /* (otworzenie komentarza) oraz */ (zamknięcie komentarza),
+np.: /*to jest komentarz*/.
+Wszystko pomiędzy tymi znakami jest ignorowane przez przeglądarkę.
+</p>
+	<p lang="pl">CSS - Kaskadowe Arkusze Stylów (z ang. Cascading Style Sheets) jest to specjalny język
+stworzony w celu elastycznego zarządzania sposobem formatowania (wyglądem) elementów
+znajdujących się na stronach WWW</p>
+	<p lang="en">CSS - Cascading Style Sheets is a special language
+created to flexibly manage the formatting (appearance) of elements
+on the websites</p>
+</body>
+</html>
